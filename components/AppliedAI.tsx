@@ -4,7 +4,7 @@ import { Brain, Network, Cpu, Database, Globe } from 'lucide-react';
 
 const AppliedAI: React.FC = () => {
   const highlights = [
-    { icon: <Network size={20} />, label: 'Agentic Architectures', value: 'Autonomous logic' },
+    { icon: <Network size={20} />, label: 'Agentic Arch', value: 'ADK Powered' },
     { icon: <Database size={20} />, label: 'Context Windows', value: 'Vector memory' },
     { icon: <Globe size={20} />, label: 'Edge Inference', value: 'Local LLMs' }
   ];
@@ -21,7 +21,7 @@ const AppliedAI: React.FC = () => {
               AI System <br /><span className="text-slate-500">Orchestration.</span>
             </h3>
             <p className="text-xl text-slate-400 font-light leading-relaxed mb-12 max-w-xl">
-              Engineering the intelligence layer. I specialize in building agents that don't just process text, but reason and execute within complex software environments.
+              Engineering the intelligence layer. I specialize in building agents that don't just process text, but reason and execute within complex software environments using <span className="text-white font-medium">ADK (Agent Development Kit)</span>.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -49,9 +49,9 @@ const AppliedAI: React.FC = () => {
 
                <ul className="space-y-6">
                  {[
+                   'ADK (Agent Development Kit)',
                    'Neural Network Fundamentals',
                    'CNNs for Computer Vision',
-                   'Supervised/Unsupervised Learning',
                    'LLM Integration & Prompting',
                    'Agentic Systems (LangChain)',
                    'Local Inference (Ollama)',

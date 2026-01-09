@@ -13,18 +13,61 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: 'project-sentinel',
+    title: 'Project Sentinel',
+    description: 'Autonomous security agent bridging system observability with AI-driven threat reasoning.',
+    problemSolved: 'Fragmented security logs requiring manual intervention for threat detection.',
+    architecture: 'Multi-agent system using ADK for specialized hierarchy and log analysis loops.',
+    depth: 'Implements adversarial attack mitigation and real-time system state reasoning.',
+    learning: 'Balancing LLM latency with real-time packet inspection requirements.',
+    techStack: ['Python', 'ADK', 'FastAPI', 'MongoDB', 'Docker'],
+    impact: 'Autonomous detection and mitigation of 0-day credential stuffing patterns.',
+    color: 'red',
+    status: 'research',
+    githubUrl: 'https://github.com/Ironomism1/ironomism1'
+  },
+  {
     id: 'otakuverse',
     title: 'OtakuVerse',
     description: 'Multi-agent AI system for content orchestration and semantic analysis.',
     problemSolved: 'Fragmented data streams requiring intelligent context mapping.',
-    architecture: 'Modular multi-agent framework utilizing LangChain for orchestration and Redis for state management.',
+    architecture: 'Modular multi-agent framework utilizing LangChain for orchestration and Redis.',
     depth: 'Implements agentic memory patterns and autonomous context retrieval protocols.',
-    learning: 'Optimizing token costs and managing asynchronous race conditions in multi-agent tool calling.',
+    learning: 'Optimizing token costs and managing asynchronous race conditions.',
     techStack: ['Python', 'LangChain', 'FastAPI', 'Redis', 'PostgreSQL'],
     impact: 'Scalable architecture processing high-frequency requests with autonomous feedback loops.',
     color: 'cyan',
     status: 'live',
-    demoUrl: '#',
+    demoUrl: 'https://otakuverse-ai.vercel.app',
+    githubUrl: 'https://github.com/Ironomism1/ironomism1'
+  },
+  {
+    id: 'agriware',
+    title: 'AgriWare',
+    description: 'AI-driven agricultural platform utilizing predictive analytics and computer vision.',
+    problemSolved: 'Low efficiency in crop monitoring and yield prediction for small-scale farms.',
+    architecture: 'Integrated CV models for pest detection with Firebase for real-time sensor sync.',
+    depth: 'Constructs localized knowledge graphs for soil-specific crop advice.',
+    learning: 'Managing image-heavy ML pipelines in low-bandwidth edge environments.',
+    techStack: ['TensorFlow', 'Firebase', 'React Native', 'Node.js', 'MongoDB'],
+    impact: 'Significant improvement in early pest detection accuracy using mobile-edge inference.',
+    color: 'emerald',
+    status: 'live',
+    demoUrl: 'https://agriware-platform.vercel.app',
+    githubUrl: 'https://github.com/Ironomism1/ironomism1'
+  },
+  {
+    id: 'project-pegasus',
+    title: 'Project Pegasus',
+    description: 'High-speed data orchestration framework for distributed AI workloads.',
+    problemSolved: 'Bottlenecks in context retrieval for large-scale RAG systems.',
+    architecture: 'Distributed message queue with prioritized agentic task scheduling.',
+    depth: 'Uses custom graph traversals to optimize context retrieval paths.',
+    learning: 'Implementing memory-safe concurrency for high-throughput state updates.',
+    techStack: ['C++', 'Python', 'Redis', 'Firebase', 'ADK'],
+    impact: '40% reduction in retrieval latency for multi-agent knowledge systems.',
+    color: 'purple',
+    status: 'research',
     githubUrl: 'https://github.com/Ironomism1/ironomism1'
   },
   {
@@ -39,7 +82,7 @@ export const PROJECTS: Project[] = [
     impact: 'High-accuracy detection of manipulated regions in large-scale datasets.',
     color: 'red',
     status: 'live',
-    demoUrl: '#',
+    demoUrl: 'https://pixis-validate.vercel.app',
     githubUrl: 'https://github.com/Ironomism1/ironomism1'
   },
   {
@@ -54,7 +97,8 @@ export const PROJECTS: Project[] = [
     impact: 'Significant engagement increase through dynamic difficulty adjustment.',
     color: 'emerald',
     status: 'live',
-    demoUrl: '#'
+    demoUrl: 'https://academia-ascend.vercel.app',
+    githubUrl: 'https://github.com/Ironomism1/ironomism1'
   }
 ];
 
@@ -66,9 +110,9 @@ export const SKILL_CATEGORIES_DATA: SkillCategoryExtended[] = [
   {
     title: 'APPLIED AI & ML',
     skills: [
+      'ADK (Agent Development Kit)',
       'Neural Network Fundamentals',
       'CNNs for Computer Vision',
-      'Supervised/Unsupervised Learning',
       'LLM Integration & Prompting',
       'Agentic Systems (LangChain)',
       'Local Inference (Ollama)',
@@ -95,11 +139,11 @@ export const SKILL_CATEGORIES_DATA: SkillCategoryExtended[] = [
     title: 'Security Engineering',
     skills: [
       'Web Application Security',
-      'Secure Authentication Protocols',
+      'Secure Auth Protocols',
       'Defensive AI Guardrails',
-      'Identity Management (OAuth)',
-      'Input Sanitization Logic',
-      'Cryptographic Architectures'
+      'Identity (OAuth/Firebase)',
+      'Input Sanitization',
+      'Cryptographic Arch'
     ],
     IconComponent: Shield,
     color: 'red'
@@ -108,11 +152,11 @@ export const SKILL_CATEGORIES_DATA: SkillCategoryExtended[] = [
     title: 'Engineering Stack',
     skills: [
       'Python (Advanced)',
-      'C++ / Java Development',
-      'FastAPI / Node.js Backends',
-      'React / TypeScript Frontends',
-      'Database Schema Modeling',
-      'Application State Logic'
+      'MongoDB & NoSQL',
+      'Firebase Ecosystem',
+      'FastAPI / Node.js',
+      'React / TypeScript',
+      'C++ / Java Core'
     ],
     IconComponent: Code,
     color: 'blue'
