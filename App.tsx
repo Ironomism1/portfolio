@@ -1,17 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, Heart } from 'lucide-react';
-import Hero from './components/Hero';
-import About from './components/About';
-import ProjectCard from './components/ProjectCard';
-import AISystems from './components/AISystems';
-import AppliedAI from './components/AppliedAI';
-import Cybersecurity from './components/Cybersecurity';
-import Skills from './components/Skills';
-import GithubSection from './components/Github';
-import Education from './components/Education';
-import Contact from './components/Contact';
-import { PROJECTS, NAV_ITEMS } from './constants';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import ProjectCard from './components/ProjectCard.tsx';
+import AISystems from './components/AISystems.tsx';
+import AppliedAI from './components/AppliedAI.tsx';
+import Cybersecurity from './components/Cybersecurity.tsx';
+import Skills from './components/Skills.tsx';
+import GithubSection from './components/Github.tsx';
+import Education from './components/Education.tsx';
+import Contact from './components/Contact.tsx';
+import { PROJECTS, NAV_ITEMS } from './constants.tsx';
 
 const App: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
